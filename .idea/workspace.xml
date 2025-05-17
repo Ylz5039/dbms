@@ -1,0 +1,396 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="fbf6e099-a202-4409-9fe5-ce69302e592d" name="更改" comment="">
+      <change afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/parser/ast/ASTNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/parser/ast/expression/AbstractExpression.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/parser/ast/expression/BinaryOperatorExpression.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/parser/ast/expression/Expression.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/parser/ast/expression/PolyadicOperatorExpression.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/parser/ast/expression/ReplacableExpression.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/parser/ast/expression/TernaryOperatorExpression.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/parser/ast/expression/UnaryOperatorExpression.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/parser/ast/expression/arithmeic/ArithmeticAddExpression.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/parser/ast/expression/arithmeic/ArithmeticBinaryOperatorExpression.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/parser/ast/expression/arithmeic/ArithmeticDivideExpression.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/parser/ast/expression/arithmeic/ArithmeticIntegerDivideExpression.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/parser/ast/expression/arithmeic/ArithmeticModExpression.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/parser/ast/expression/arithmeic/ArithmeticMultiplyExpression.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/parser/ast/expression/arithmeic/ArithmeticSubtractExpression.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/parser/ast/expression/arithmeic/MinusExpression.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/parser/ast/expression/bit/BitAndExpression.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/parser/ast/expression/bit/BitInvertExpression.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/parser/ast/expression/bit/BitOrExpression.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/parser/ast/expression/bit/BitShiftExpression.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/parser/ast/expression/bit/BitXORExpression.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/parser/ast/expression/comparison/BetweenAndExpression.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/parser/ast/expression/comparison/ComparisionEqualsExpression.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/parser/ast/expression/comparison/ComparisionIsExpression.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/parser/ast/expression/comparison/InExpression.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/parser/ast/expression/logical/LogicalAndExpression.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/parser/ast/expression/logical/LogicalNotExpression.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/parser/ast/expression/logical/LogicalOrExpression.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/parser/ast/expression/logical/LogicalXORExpression.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/parser/ast/expression/logical/NegativeValueExpression.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/parser/ast/expression/misc/AssignmentExpression.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/parser/ast/expression/misc/InExpressionList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/parser/ast/expression/misc/QueryExpression.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/parser/ast/expression/misc/SubqueryAllExpression.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/parser/ast/expression/misc/SubqueryAnyExpression.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/parser/ast/expression/misc/UserExpression.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/parser/ast/expression/primary/CaseWhenOperatorExpression.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/parser/ast/expression/primary/DefaultValue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/parser/ast/expression/primary/ExistsPrimary.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/parser/ast/expression/primary/Identifier.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/parser/ast/expression/primary/MatchExpression.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/parser/ast/expression/primary/NewRowPrimary.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/parser/ast/expression/primary/OldRowPrimary.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/parser/ast/expression/primary/ParamMarker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/parser/ast/expression/primary/PlaceHolder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/parser/ast/expression/primary/PrimaryExpression.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/parser/ast/expression/primary/RowExpression.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/parser/ast/expression/primary/SysVarPrimary.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/parser/ast/expression/primary/UsrDefVarPrimary.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/parser/ast/expression/primary/VariableExpression.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/parser/ast/expression/primary/Wildcard.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/parser/ast/expression/primary/function/DefaultFunction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/parser/ast/expression/primary/function/FunctionExpression.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/parser/ast/expression/primary/function/cast/Cast.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/parser/ast/expression/primary/function/cast/Convert.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/parser/ast/expression/primary/function/comparison/Interval.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/parser/ast/expression/primary/function/datetime/CurTimestamp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/parser/ast/expression/primary/function/datetime/Curdate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/parser/ast/expression/primary/function/datetime/Curtime.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/parser/ast/expression/primary/function/datetime/Extract.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/parser/ast/expression/primary/function/datetime/GetFormat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/parser/ast/expression/primary/function/datetime/Now.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/parser/ast/expression/primary/function/datetime/Timestampadd.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/parser/ast/expression/primary/function/datetime/Timestampdiff.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/parser/ast/expression/primary/function/datetime/UtcDate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/parser/ast/expression/primary/function/datetime/UtcTime.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/parser/ast/expression/primary/function/datetime/UtcTimestamp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/parser/ast/expression/primary/function/groupby/Avg.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/parser/ast/expression/primary/function/groupby/Count.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/parser/ast/expression/primary/function/groupby/GroupConcat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/parser/ast/expression/primary/function/groupby/Max.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/parser/ast/expression/primary/function/groupby/Min.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/parser/ast/expression/primary/function/groupby/Sum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/parser/ast/expression/primary/function/info/CurrentUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/parser/ast/expression/primary/function/spatial/Area.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/parser/ast/expression/primary/function/spatial/AsText.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/parser/ast/expression/primary/function/spatial/AsWKT.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/parser/ast/expression/primary/function/spatial/Centroid.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/parser/ast/expression/primary/function/spatial/Contains.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/parser/ast/expression/primary/function/spatial/Equals.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/parser/ast/expression/primary/function/spatial/ExteriorRing.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/parser/ast/expression/primary/function/string/Locate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/parser/ast/expression/primary/function/string/Substring.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/parser/ast/expression/primary/function/string/Trim.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/parser/ast/expression/primary/literal/IntervalPrimary.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/parser/ast/expression/primary/literal/Literal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/parser/ast/expression/primary/literal/LiteralBitField.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/parser/ast/expression/primary/literal/LiteralBoolean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/parser/ast/expression/primary/literal/LiteralHexadecimal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/parser/ast/expression/primary/literal/LiteralNull.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/parser/ast/expression/primary/literal/LiteralNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/parser/ast/expression/primary/literal/LiteralString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/parser/ast/expression/primary/literal/LiteralTimestamp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/parser/ast/expression/string/Char.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/parser/ast/expression/string/LikeExpression.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/parser/ast/expression/string/RegexpExpression.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/parser/ast/expression/string/SoundsLikeExpression.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/parser/ast/expression/type/CastBinaryExpression.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/parser/ast/expression/type/CollateExpression.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/parser/ast/fragment/DatabaseOptions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/parser/ast/fragment/GroupBy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/parser/ast/fragment/Limit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/parser/ast/fragment/OrderBy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/parser/ast/fragment/SortOrder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/parser/ast/fragment/VariableScope.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/parser/ast/fragment/ddl/ColumnDefinition.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/parser/ast/fragment/ddl/TableOptions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/parser/ast/fragment/ddl/datatype/DataType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/parser/ast/fragment/ddl/index/IndexColumnName.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/parser/ast/fragment/ddl/index/IndexDefinition.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/parser/ast/fragment/ddl/index/IndexOption.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/parser/ast/fragment/tableref/AliasableTableReference.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/parser/ast/fragment/tableref/Dual.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/parser/ast/fragment/tableref/IndexHint.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/parser/ast/fragment/tableref/InnerJoin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/parser/ast/fragment/tableref/OuterJoin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/parser/ast/fragment/tableref/SubqueryFactor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/parser/ast/fragment/tableref/TableRefFactor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/parser/ast/fragment/tableref/TableReference.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/parser/ast/fragment/tableref/TableReferences.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/parser/ast/stmt/SQLStatement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/parser/ast/stmt/compound/BeginEndStatement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/parser/ast/stmt/compound/CompoundStatement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/parser/ast/stmt/compound/condition/Characteristics.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/parser/ast/stmt/compound/condition/ConditionValue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/parser/ast/stmt/compound/condition/DeclareConditionStatement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/parser/ast/stmt/compound/condition/DeclareHandlerStatement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/parser/ast/stmt/compound/condition/GetDiagnosticsStatement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/parser/ast/stmt/compound/condition/ResignalStatement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/parser/ast/stmt/compound/condition/SignalStatement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/parser/ast/stmt/compound/cursors/CursorCloseStatement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/parser/ast/stmt/compound/cursors/CursorDeclareStatement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/parser/ast/stmt/compound/cursors/CursorFetchStatement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/parser/ast/stmt/compound/cursors/CursorOpenStatement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/parser/ast/stmt/compound/flowcontrol/CaseStatement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/parser/ast/stmt/compound/flowcontrol/IfStatement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/parser/ast/stmt/compound/flowcontrol/IterateStatement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/parser/ast/stmt/compound/flowcontrol/LeaveStatement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/parser/ast/stmt/compound/flowcontrol/LoopStatement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/parser/ast/stmt/compound/flowcontrol/RepeatStatement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/parser/ast/stmt/compound/flowcontrol/ReturnStatement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/parser/ast/stmt/compound/flowcontrol/WhileStatement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/parser/ast/stmt/dal/DALSetCharacterSetStatement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/parser/ast/stmt/dal/DALSetNamesStatement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/parser/ast/stmt/dal/DALSetStatement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/parser/ast/stmt/dal/DALShowStatement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/parser/ast/stmt/dal/ShowAuthors.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/parser/ast/stmt/dal/ShowBinLogEvent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/parser/ast/stmt/dal/ShowBinaryLog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/parser/ast/stmt/dal/ShowCharaterSet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/parser/ast/stmt/dal/ShowCharset.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/parser/ast/stmt/dal/ShowCollation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/parser/ast/stmt/dal/ShowColumns.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/parser/ast/stmt/dal/ShowContributors.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/parser/ast/stmt/dal/ShowCreate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/parser/ast/stmt/dal/ShowCreateDatabase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/parser/ast/stmt/dal/ShowDatabases.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/parser/ast/stmt/dal/ShowEngine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/parser/ast/stmt/dal/ShowEngines.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/parser/ast/stmt/dal/ShowErrors.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/parser/ast/stmt/dal/ShowEvents.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/parser/ast/stmt/dal/ShowFields.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/parser/ast/stmt/dal/ShowFunctionCode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/parser/ast/stmt/dal/ShowFunctionStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/parser/ast/stmt/dal/ShowGrants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/parser/ast/stmt/dal/ShowIndex.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/parser/ast/stmt/dal/ShowMasterStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/parser/ast/stmt/dal/ShowOpenTables.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/parser/ast/stmt/dal/ShowPlugins.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/parser/ast/stmt/dal/ShowPrivileges.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/parser/ast/stmt/dal/ShowProcedureCode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/parser/ast/stmt/dal/ShowProcedureStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/parser/ast/stmt/dal/ShowProcesslist.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/parser/ast/stmt/dal/ShowProfile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/parser/ast/stmt/dal/ShowProfiles.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/parser/ast/stmt/dal/ShowSlaveHosts.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/parser/ast/stmt/dal/ShowSlaveStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/parser/ast/stmt/dal/ShowStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/parser/ast/stmt/dal/ShowTableStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/parser/ast/stmt/dal/ShowTables.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/parser/ast/stmt/dal/ShowTriggers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/parser/ast/stmt/dal/ShowVariables.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/parser/ast/stmt/dal/ShowWarnings.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/parser/ast/stmt/ddl/DDLAlterEventStatement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/parser/ast/stmt/ddl/DDLAlterTableStatement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/parser/ast/stmt/ddl/DDLAlterViewStatement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/parser/ast/stmt/ddl/DDLCreateDatabaseStatement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/parser/ast/stmt/ddl/DDLCreateEventStatement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/parser/ast/stmt/ddl/DDLCreateFunctionStatement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/parser/ast/stmt/ddl/DDLCreateIndexStatement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/parser/ast/stmt/ddl/DDLCreateLikeStatement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/parser/ast/stmt/ddl/DDLCreateProcedureStatement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/parser/ast/stmt/ddl/DDLCreateTableStatement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/parser/ast/stmt/ddl/DDLCreateTriggerStatement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/parser/ast/stmt/ddl/DDLCreateViewStatement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/parser/ast/stmt/ddl/DDLDropIndexStatement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/parser/ast/stmt/ddl/DDLDropTableStatement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/parser/ast/stmt/ddl/DDLDropTriggerStatement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/parser/ast/stmt/ddl/DDLRenameTableStatement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/parser/ast/stmt/ddl/DDLStatement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/parser/ast/stmt/ddl/DDLTruncateStatement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/parser/ast/stmt/ddl/DDLUseDatabaseStatement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/parser/ast/stmt/ddl/DescTableStatement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/parser/ast/stmt/ddl/ExplainStatement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/parser/ast/stmt/dml/DMLCallStatement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/parser/ast/stmt/dml/DMLDeleteStatement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/parser/ast/stmt/dml/DMLInsertReplaceStatement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/parser/ast/stmt/dml/DMLInsertStatement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/parser/ast/stmt/dml/DMLQueryStatement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/parser/ast/stmt/dml/DMLReplaceStatement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/parser/ast/stmt/dml/DMLSelectStatement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/parser/ast/stmt/dml/DMLSelectUnionStatement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/parser/ast/stmt/dml/DMLStatement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/parser/ast/stmt/dml/DMLUpdateStatement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/parser/ast/stmt/extension/DropPrepareStatement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/parser/ast/stmt/extension/ExecutePrepareStatement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/parser/ast/stmt/extension/ExtDDLCreatePolicy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/parser/ast/stmt/extension/ExtDDLDropPolicy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/parser/ast/stmt/extension/PrepareStatement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/parser/ast/stmt/mts/MTSCommitStatement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/parser/ast/stmt/mts/MTSReleaseStatement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/parser/ast/stmt/mts/MTSRollbackStatement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/parser/ast/stmt/mts/MTSSavepointStatement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/parser/ast/stmt/mts/MTSSetTransactionStatement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/parser/ast/stmt/mts/MTSStartTransactionStatement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/parser/recognizer/SQLParserDelegate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/parser/recognizer/mysql/MySQLFunctionManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/parser/recognizer/mysql/MySQLToken.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/parser/recognizer/mysql/lexer/MySQLKeywords.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/parser/recognizer/mysql/lexer/MySQLLexer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/parser/recognizer/mysql/syntax/MySQLCmpdParser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/parser/recognizer/mysql/syntax/MySQLDALParser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/parser/recognizer/mysql/syntax/MySQLDDLParser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/parser/recognizer/mysql/syntax/MySQLDMLCallParser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/parser/recognizer/mysql/syntax/MySQLDMLDeleteParser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/parser/recognizer/mysql/syntax/MySQLDMLInsertParser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/parser/recognizer/mysql/syntax/MySQLDMLInsertReplaceParser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/parser/recognizer/mysql/syntax/MySQLDMLParser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/parser/recognizer/mysql/syntax/MySQLDMLReplaceParser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/parser/recognizer/mysql/syntax/MySQLDMLSelectParser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/parser/recognizer/mysql/syntax/MySQLDMLUpdateParser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/parser/recognizer/mysql/syntax/MySQLExprParser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/parser/recognizer/mysql/syntax/MySQLMTSParser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/parser/recognizer/mysql/syntax/MySQLParser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/parser/recognizer/mysql/syntax/MySQLPrepareParser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/parser/util/BinaryOperandCalculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/parser/util/CharTypes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/parser/util/ExprEvalUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/parser/util/Pair.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/parser/util/ParseString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/parser/util/Tuple.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/parser/util/Tuple3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/parser/util/UnaryOperandCalculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/structuer/Result.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/structuer/Table.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/structuer/func/AnalysisClassUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/structuer/func/DatabaseCreationUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/structuer/func/DeleteUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/structuer/func/InsertUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/structuer/func/QueryUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/structuer/func/TableCreationUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/structuer/func/UpdateUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/test/ALLDatabase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/test/SQLStatementTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/test/mapper/SQLStatementMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/test/parser/SQLStatementIdentifier.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/window/manage/TableManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/st/exception/DBMSException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/st/parser/BPlusTree.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/st/parser/CommandParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/test/parser/CommandParser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/st/server/DBService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/st/server/DBServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/st/server/IbdFileHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/structuer/func/IbdFileHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/st/util/DBUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/st/util/DDLStatement.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/st/util/DataBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/structuer/DataBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/st/util/Filed.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/structuer/Filed.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/st/util/JoinCondition.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/st/util/RecordAllocationTable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/structuer/RecordAllocationTable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/st/util/Table.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/test/Main.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
+  <component name="ProjectId" id="2oJtvC927ZvEFyJ3DuhAnMxc8uP" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Downloads/parsevip-master/parsevip-master&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.maven.importing&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\ideaProject\dbms\myDBMS_1\src\main\java\com\structuer\func" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="window" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="com.window.test.Window" />
+      <module name="myDBMS" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="myDBMS_1" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="myDBMS_1" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="默认任务">
+      <changelist id="fbf6e099-a202-4409-9fe5-ce69302e592d" name="更改" comment="" />
+      <created>1730599736314</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1730599736314</updated>
+      <workItem from="1730599737575" duration="19803000" />
+      <workItem from="1730633697439" duration="554000" />
+      <workItem from="1730650863229" duration="1703000" />
+      <workItem from="1730727775601" duration="1170000" />
+      <workItem from="1730766772728" duration="132000" />
+      <workItem from="1730766930767" duration="3349000" />
+      <workItem from="1730775905708" duration="114000" />
+      <workItem from="1730786692881" duration="19000" />
+      <workItem from="1730796359174" duration="95000" />
+      <workItem from="1732964655115" duration="5000" />
+      <workItem from="1734311952700" duration="1682000" />
+      <workItem from="1734658274283" duration="1441000" />
+      <workItem from="1734697543845" duration="2372000" />
+      <workItem from="1734706006421" duration="6000" />
+      <workItem from="1737731891892" duration="405000" />
+      <workItem from="1737780257201" duration="642000" />
+      <workItem from="1747462159088" duration="104000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
