@@ -1,0 +1,45 @@
+package com.parser.ast.expression.misc;
+
+import com.parser.ast.expression.AbstractExpression;
+import com.parser.ast.expression.Expression;
+
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.List;
+import java.util.Map;
+
+public class InExpressionList extends AbstractExpression {
+    private List<Expression> list;
+
+    public InExpressionList(List<Expression> list) {
+        if (list == null || list.size() == 0) {
+            this.list = Collections.emptyList();
+        } else if (list instanceof ArrayList) {
+            this.list = list;
+        } else {
+            this.list = new ArrayList<Expression>(list);
+        }
+    }
+
+    public List<Expression> getList() {
+        return list;
+    }
+
+    public int getPrecedence() {
+        return PRECEDENCE_PRIMARY;
+    }
+
+    public Object evaluationInternal(Map<? extends Object, ? extends Object> parameters) {
+        return UNEVALUATABLE;
+    }
+
+    private List<Expression> replaceList;
+
+    public void setReplaceExpr(List<Expression> replaceList) {
+        this.replaceList = replaceList;
+    }
+
+    public void clearReplaceExpr() {
+        this.replaceList = null;
+    }
+}
