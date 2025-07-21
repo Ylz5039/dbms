@@ -2,10 +2,6 @@
 Lightweight DBMS (Java)
 A lightweight database management system implemented in Java, featuring a custom key-value container, finite state machine for command parsing, and multi-threaded socket communication. The client offers a user-friendly GUI for SQL-like command input and result display. Supports data persistence and concurrent client access with thread-safe operations.
 
-  /\_/\  
- ( o.o )   < Lightweight DBMS
-  > ^ <     ~ 线程安全 · SQL-like · 持久化
-
 com
 ├── parser # 语法分析模块
 │ ├── ast # 抽象语法树（AST）
